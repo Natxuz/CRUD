@@ -2,7 +2,7 @@
 Imports System.Text
 
 Module procedimiento
-    Private mCadenaConexion As String = "Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=HeMi;Data Source=MITIESTOPC\SERVIDOR2014"
+    Private mCadenaConexion As String = "Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=BaseDatos;Data Source=Servidor\Instancia"
     Private mConexion As New OleDbConnection
     Private mError As New StringBuilder
     Private mTransaccion As OleDbTransaction
